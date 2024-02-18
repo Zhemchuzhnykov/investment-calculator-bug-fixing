@@ -12,9 +12,11 @@ This project represents the same app and, fundamentally, same code as the projec
 
 - Making sense of React error messages
 - Finding logical errors via the browser DevTools & Debugger
+- Placing a break point in the DevTools and debugging an app
 - Enabling React's strict mode and understanding React's strict mode
 - Using the React DevTools for application analysis & manipulation
 
 ### Appendix 1: Bug Scenarios
 
-1. The app crashes when, in the field of the investment duration, a user inputs either 0, or a negative number.
+1. Execution error: The app crashes when, in the field of the investment duration, a user inputs either 0, or a negative number.
+2. Logical error: When a certain number, for example 15000, is input, the results are produced with the long float numbers, for example $150,002,100,900,132,690,001,260,541,280, and NaN.
