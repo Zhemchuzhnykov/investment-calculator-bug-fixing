@@ -14,7 +14,7 @@ This project represents the same app and, fundamentally, same code as the projec
 - Finding logical errors via the browser DevTools & Debugger
 - Placing a break point in the DevTools and debugging an app
 - Enabling React's strict mode and understanding React's strict mode
-- Using the React DevTools for application analysis & manipulation
+- Using the extension React DevTools for application analysis & manipulation
 
 ### Appendix 1: Bug Scenarios
 
