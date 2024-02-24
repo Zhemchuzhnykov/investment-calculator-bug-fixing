@@ -19,4 +19,5 @@ This project represents the same app and, fundamentally, same code as the projec
 ### Appendix 1: Bug Scenarios
 
 1. Execution error: The app crashes when, in the field of the investment duration, a user inputs either 0, or a negative number.
-2. Logical error: When a certain number, for example 15000, is input, the results are produced with the long float numbers, for example $150,002,100,900,132,690,001,260,541,280, and NaN.
+2. Logical error №1: When a certain number, for example 15000, is input, the results are produced with the long float numbers, for example $150,002,100,900,132,690,001,260,541,280, and NaN.
+3. Logical error №2: Results section is not cleared before re-rendering the results.
